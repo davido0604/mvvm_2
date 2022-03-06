@@ -8,6 +8,6 @@ class FilmViewModel() : ViewModel() {
     var ageRating: String = ""
     var duration: String = ""
     var genres: MutableList<String> = mutableListOf()
-    var rating: Float = 0.0f
+    var rating: String = ""
     var reviews: String = ""
 }

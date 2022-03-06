@@ -7,7 +7,7 @@ object Converters {
         filmViewModel.ageRating = filmModel.ageRating
         filmViewModel.duration = "${filmModel.durationMinute / 60}h ${filmModel.durationMinute % 60}m"
         filmViewModel.genres = filmModel.genres
-        filmViewModel.rating = filmModel.rating
+        filmViewModel.rating = "${filmModel.rating}/10"
         filmViewModel.reviews = String.format("%,d", filmModel.reviews)
     }
 }
